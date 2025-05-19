@@ -1,45 +1,19 @@
-﻿# Meu Portfólio
+# 👩💻 Portfólio - Maria Rodrigues  
+**Desenvolvedora Full-Stack | HTML | CSS | JavaScript | Node.js**  
 
-Bem-vindo ao meu portfólio! Este repositório contém informações sobre mim, meus projetos e as tecnologias que estou aprendendo. Aqui, você encontrará exemplos de código, dicas de aprendizado e um formulário para que você possa deixar seus comentários.
+## 🚀 Sobre Mim  
+Sou uma desenvolvedora apaixonada por criar soluções eficientes. Aqui você encontrará projetos que demonstram minha evolução técnica e capacidade de resolver problemas reais.  
 
-## Sobre Mim
+## 🔥 Projetos Destacados  
+| Projeto | Tecnologias | Link |  
+|---------|-------------|------|  
+| Site Pessoal | HTML, CSS, JS | [Acessar](#) |  
+| API RESTful | Node.js, MongoDB | [Acessar](#) |  
 
-Olá! Meu nome é Maria Rodrigues. Sou um desenvolvedora full-stack apaixonada por tecnologia e aprendizado contínuo. Estou sempre em busca de novos desafios e oportunidades para aprimorar minhas habilidades. Neste portfólio, você encontrará uma coleção de projetos que refletem meu conhecimento e experiência.
+## 💻 Tecnologias  
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)  
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)  
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)  
 
-## O Projeto
-
-Este portfólio é uma demonstração das tecnologias que estou aprendendo, incluindo:
-
-- **HTML**: Estrutura semântica, saber como incorporar imagens, videos e outras mídias.
-- **CSS**: Layout e Design Responsivo, estilizando cores, fontes, espaçamentos e efeitos visuais, é crucial para criar um portfólio atraente.
-- **JavaScript**:  Criando uma navegação clara e intuitiva usando links internos e externos, além de botões, para facilitar a experiência do usuário.
-
-
-Além disso, o portfólio inclui dicas úteis para quem está começando a aprender programação e um formulário para que os visitantes possam deixar comentários e feedback.
-
-# 🛠 Tecnologias Dominadas  
-- **Front-end**: HTML5, CSS3 (Flexbox/Grid), JavaScript (ES6+).  
-- **Ferramentas**: Git, VS Code, Figma.  
-
-# 🚀 Projetos Destacados  
-- [Site Pessoal](https://portfliom4ry.netlify.app/) – HTML/CSS responsivo.  
-- [API em Node.js](link) – CRUD com autenticação.  
-
-# 📌 Como Contribuir  
-1. Faça um `fork` do repositório.  
-2. Use `git checkout -b feature/nova-feature`.  
-3. Envie um `PR` com a melhoria.  
-
-## Principais Comandos do Git
-
-Aqui estão alguns dos principais comandos do Git que você pode usar para gerenciar este projeto:
-
-### Clonar o Repositório
-
-Para baixar o repositório para o seu computador, use o seguinte comando:
-
-```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git# meu.site
-
-
-
+## 📬 Contato  
+🔗 [LinkedIn](#) | ✉️ email@exemplo.com  
