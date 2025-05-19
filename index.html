@@ -3,345 +3,210 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portfólio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <meta name="description" content="Portfólio de Maria Rodrigues - Desenvolvedora FullStack">
+    <title>Maria Rodrigues | Desenvolvedora FullStack</title>
+    
+    <!-- Otimização de carregamento -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    
+    <!-- CSS otimizado -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.min.css">
 </head>
 <body>
-    <header class="bg-light py-4">
-        <div class="container d-flex align-items-center">
-            <img class="rounded-circle mr-4" src="assents/fotodoperfil.1.jpg" alt="Foto de perfil de Maria" width="120" style="height: auto;">
-            <div class="mr-auto">
-                <h1>Maria Rodrigues</h1>
-                <p>Desenvolvedora FullStack</p>
-            </div>
+    <!-- Header otimizado -->
+    <header class="bg-light sticky-top py-3">
+        <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img class="rounded-circle mr-3" src="assets/images/profile.jpg" alt="Maria Rodrigues" width="60" height="60" loading="lazy">
+                    <div>
+                        <h1 class="h5 mb-0">Maria Rodrigues</h1>
+                        <small class="text-muted">Desenvolvedora FullStack</small>
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item"><a class="nav-link" href="#introducao">Introdução</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#historico">Histórico</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#interesses">Interesses</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#projetos">Meus Projetos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#depoimentos">Depoimentos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#redes-sociais">Redes Sociais</a></li>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
                     </ul>
                 </div>
             </nav>
         </div>
     </header>
 
-    <main class="container my-5">
-        <section id="introducao">
-            <h2>Introdução</h2>
-            <p>Me chamo Maria Rodrigues, tenho 24 anos e sou desenvolvedora FullStack em formação, estou no 3° semestre de Análise e Desenvolvimento de Sistemas.</p>
-        </section>
-
-        <section id="historico">
-            <h2>Histórico</h2>
-            <p>Atualmente, estou cursando Análise e desenvolvimento de sistemas, onde adquiro conhecimentos fundamentais em programação, design de sistemas e metodologias ágeis. Durante minha formação, tive a oportunidade de trabalhar em diversos projetos práticos, que me permitiram aplicar teorias em situações reais e desenvolver habilidades em linguagens como JavaScript e Python.</p>
-            <p>Além disso, participei de hackathons e projetos colaborativos, onde aprendi a trabalhar em equipe e a resolver problemas de forma criativa e eficiente. Estou sempre em busca de novos desafios e oportunidades que me permitam crescer profissionalmente e contribuir para projetos inovadores na área de tecnologia.</p>
-        </section>
-
-        <section id="interesses">
-            <h2>Interesses</h2>
-            <p>Tenho interesse em tecnologias web, inteligência artificial e desenvolvimento de jogos. Estou sempre buscando aprender novas habilidades e me aprimorar na área de tecnologia.</p>
-            <h4>Linguagens de Programação que Tenho Interesse:</h4>
-            <ul class="list-unstyled d-flex flex-wrap">
-                <li class="mr-3"><i class="fab fa-html5"></i> HTML</li>
-                <li class="mr-3"><i class="fab fa-css3-alt"></i> CSS</li>
-                <li class="mr-3"><i class="fab fa-js-square"></i> JavaScript</li>
-                <li class="mr-3"><i class="fab fa-react"></i> React</li>
-                <li class="mr-3"><i class="fab fa-node-js"></i> Node.js</li>
-                <li class="mr-3"><i class="fab fa-python"></i> Python</li>
-            </ul>
-        </section>
-
-        <section id="projetos">
-            <h2>Meus Projetos</h2>
+    <main class="container py-5">
+        <!-- Seção Hero -->
+        <section id="hero" class="text-center py-5">
             <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <img src="assets/images/profile.jpg" alt="Maria Rodrigues" class="rounded-circle mb-4" width="150" height="150" loading="lazy">
+                    <h1 class="display-4">Maria Rodrigues</h1>
+                    <p class="lead">Desenvolvedora FullStack | JavaScript | React | Node.js</p>
+                    <div class="social-icons my-4">
+                        <a href="https://github.com/maryrl" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github fa-2x mx-3"></i></a>
+                        <a href="https://linkedin.com/in/seu-perfil" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin fa-2x mx-3"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Sobre -->
+        <section id="sobre" class="py-5">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2 class="mb-4">Sobre Mim</h2>
+                    <p>Desenvolvedora FullStack em formação com experiência em projetos práticos utilizando JavaScript, React e Node.js. Atualmente cursando Análise e Desenvolvimento de Sistemas (3° semestre) e participando ativamente de hackathons e projetos colaborativos.</p>
+                    <p>Minha paixão por tecnologia me motiva a buscar constantemente novos desafios e oportunidades de aprendizado.</p>
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="mb-4">Habilidades Técnicas</h3>
+                    <div class="skill mb-3">
+                        <div class="d-flex justify-content-between">
+                            <span>HTML5 & CSS3</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="progress" style="height: 8px;">
+                            <div class="progress-bar" role="progressbar" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-3">
+                        <div class="d-flex justify-content-between">
+                            <span>JavaScript</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="progress" style="height: 8px;">
+                            <div class="progress-bar" role="progressbar" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-3">
+                        <div class="d-flex justify-content-between">
+                            <span>React</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="progress" style="height: 8px;">
+                            <div class="progress-bar" role="progressbar" style="width: 70%"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-3">
+                        <div class="d-flex justify-content-between">
+                            <span>Node.js</span>
+                            <span>65%</span>
+                        </div>
+                        <div class="progress" style="height: 8px;">
+                            <div class="progress-bar" role="progressbar" style="width: 65%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Projetos -->
+        <section id="projetos" class="py-5">
+            <h2 class="text-center mb-5">Projetos Destacados</h2>
+            <div class="row">
+                <!-- Projeto 1 -->
                 <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <img src="assents/imagem do jogo.png" class="card-img-top" alt="Imagem do Jogo">
-                        <div class="card-body">
+                    <div class="card h-100">
+                        <img src="assets/images/project1.jpg" class="card-img-top" alt="Jogo do Número Secreto" loading="lazy">
+                        <div class="card-body d-flex flex-column">
                             <h5 class="card-title">Jogo do Número Secreto</h5>
-                            <p class="card-text">Link do projeto: <a href="https://joguinho-js.vercel.app" target="_blank">Joguinho do número secreto</a></p>
-                            <p>Linguagens utilizadas: HTML, CSS, JavaScript</p>
+                            <p class="card-text">Jogo desenvolvido com JavaScript puro.</p>
+                            <div class="mt-auto">
+                                <span class="badge badge-primary mr-1">HTML</span>
+                                <span class="badge badge-info mr-1">CSS</span>
+                                <span class="badge badge-warning">JavaScript</span>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-white">
+                            <a href="https://joguinho-js.vercel.app" target="_blank" rel="noopener" class="btn btn-primary btn-block">Ver Projeto</a>
                         </div>
                     </div>
                 </div>
+                
+                <!-- Projeto 2 -->
                 <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <img src="assents/imc.png" class="card-img-top" alt="Imagem da calculadora">
-                        <div class="card-body">
+                    <div class="card h-100">
+                        <img src="assets/images/project2.jpg" class="card-img-top" alt="Calculadora IMC" loading="lazy">
+                        <div class="card-body d-flex flex-column">
                             <h5 class="card-title">Calculadora IMC</h5>
-                            <p class="card-text">Link do projeto: <a href="https://imc-calculadora-eight.vercel.app" target="_blank">Calculadora de IMC</a></p>
-                            <p>Linguagens utilizadas: HTML, CSS, JavaScript</p>
+                            <p class="card-text">Calculadora de índice de massa corporal.</p>
+                            <div class="mt-auto">
+                                <span class="badge badge-primary mr-1">HTML</span>
+                                <span class="badge badge-info mr-1">CSS</span>
+                                <span class="badge badge-warning">JavaScript</span>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-white">
+                            <a href="https://imc-calculadora-eight.vercel.app" target="_blank" rel="noopener" class="btn btn-primary btn-block">Ver Projeto</a>
                         </div>
                     </div>
                 </div>
+                
+                <!-- Projeto 3 -->
                 <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <img src="assents/pizzaria.png" class="card-img-top" alt="Imagem da landing page">
-                        <div class="card-body">
-                            <h5 class="card-title">Landing Page</h5>
-                            <p class="card-text">Link do projeto: <a href="https://pizzaria-site-desafio.netlify.app" target="_blank">Landing page pizzaria</a></p>
-                            <p>Linguagens utilizadas: HTML, CSS</p>
+                    <div class="card h-100">
+                        <img src="assets/images/project3.jpg" class="card-img-top" alt="Landing Page Pizzaria" loading="lazy">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Pizzaria Delícia</h5>
+                            <p class="card-text">Landing page responsiva para pizzaria.</p>
+                            <div class="mt-auto">
+                                <span class="badge badge-primary mr-1">HTML</span>
+                                <span class="badge badge-info">CSS</span>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-white">
+                            <a href="https://pizzaria-site-desafio.netlify.app" target="_blank" rel="noopener" class="btn btn-primary btn-block">Ver Projeto</a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="tecnologias">
-            <h2>Minhas Tecnologias</h2>
-            <div class="progress mb-3">
-                <span class="progress-bar" style="width: 100%;">HTML</span>
-            </div>
-            <div class="progress mb-3">
-                <span class="progress-bar" style="width: 80%;">CSS</span>
-            </div>
-            <div class="progress mb-3">
-                <span class="progress-bar" style="width: 70%;">JavaScript</span>
-            </div>
-            <div class="progress mb-3">
-                <span class="progress-bar" style="width: 50%;">React</span>
-            </div>
-            <div class="progress mb-3">
-                <span class="progress-bar" style="width: 45%;">Node.js</span>
-            </div>
-        </section>
-
-        <section id="depoimentos" class="py-5">
-            <h2 class="text-center mb-4">Depoimentos de Clientes</h2>
+        <!-- Seção Contato -->
+        <section id="contato" class="py-5">
             <div class="row">
-                <div class="col-md-4">
-                    <div class="card testimonial">
-                        <div class="card-body">
-                            <div class="d-flex align-items-center mb-3">
-                                <img src="assents/cliente1.jpeg" alt="Cliente 1" class="rounded-circle" width="80" height="80">
-                                <div class="ml-3">
-                                    <h5>Maria Silva</h5>
-                                    <p class="text-muted">Cliente Satisfeita</p>
-                                </div>
-                            </div>
-                            <p>O trabalho do fotógrafo foi incrível! As fotos ficaram maravilhosas e capturaram todos os momentos especiais do nosso evento.</p>
+                <div class="col-lg-6 mx-auto">
+                    <h2 class="text-center mb-4">Entre em Contato</h2>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Seu Nome" required>
                         </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card testimonial">
-                        <div class="card-body">
-                            <div class="d-flex align-items-center mb-3">
-                                <img src="assents/cliente3.jpeg" alt="Cliente 2" class="rounded-circle" width="80" height="80">
-                                <div class="ml-3">
-                                    <h5>João Pereira</h5>
-                                    <p class="text-muted">Cliente Satisfeito</p>
-                                </div>
-                            </div>
-                            <p>Excelente profissional! Superou nossas expectativas e entregou as fotos antes do prazo. Recomendo a todos!</p>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Seu Email" required>
                         </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card testimonial">
-                        <div class="card-body">
-                            <div class="d-flex align-items-center mb-3">
-                                <img src="assents/cliente2.jpeg" alt="Cliente 3" class="rounded-circle" width="80" height="80">
-                                <div class="ml-3">
-                                    <h5>Ana Costa</h5>
-                                    <p class="text-muted">Cliente Feliz</p>
-                                </div>
-                            </div>
-                            <p>As fotos do nosso casamento ficaram simplesmente perfeitas! Capturou cada detalhe e emoção. Muito obrigada!</p>
+                        <div class="form-group">
+                            <textarea class="form-control" rows="5" placeholder="Sua Mensagem" required></textarea>
                         </div>
-                    </div>
+                        <button type="submit" class="btn btn-primary btn-block">Enviar Mensagem</button>
+                    </form>
                 </div>
             </div>
-        </section>
-
-        <section id="galeria" class="container mt-5">
-            <h2 class="text-center">Galeria de Fotos</h2>
-            <div class="row">
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <img src="assents/imagem1.jpeg" class="card-img-top" alt="Imagem 1">
-                        <div class="card-body">
-                            <h5 class="card-title">Dashboard</h5>
-                            <p class="card-text">Template</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <img src="assents/imagem2.jpeg" class="card-img-top" alt="Imagem 2">
-                        <div class="card-body">
-                            <h5 class="card-title">Landing Page</h5>
-                            <p class="card-text">Estudos e produtividade</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <img src="assents/imagem3.jpeg" class="card-img-top" alt="Imagem 3">
-                        <div class="card-body">
-                            <h5 class="card-title">Loja de Joias</h5>
-                            <p class="card-text">Projeto com React.js</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <img src="assents/imagem4.jpeg"card-img-top" alt="Imagem 4">
-                        <div class="card-body">
-                            <h5 class="card-title">Gym Academy</h5>
-                            <p class="card-text">Site de acessórios para academia</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <img src="assents/imagem5.jpeg" class="card-img-top" alt="Imagem 5">
-                        <div class="card-body">
-                            <h5 class="card-title">Tech day</h5>
-                            <p class="card-text">Acessórios Tech</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <img src="assents/imagem6.jpeg" class="card-img-top" alt="Imagem 6">
-                        <div class="card-body">
-                            <h5 class="card-title">Kids and Kids</h5>
-                            <p class="card-text">Departamento de lojas infantis</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <img src="assents/imagem7.jpeg" class="card-img-top" alt="Imagem 7">
-                        <div class="card-body">
-                            <h5 class="card-title">Cosmetics</h5>
-                            <p class="card-text">Projeto de site para loja física</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <img src="assents/imagem8.jpeg" class="card-img-top" alt="Imagem 8">
-                        <div class="card-body">
-                            <h5 class="card-title">Jornada</h5>
-                            <p class="card-text">Pacotes de viagens aereas</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <img src="assents/imagem9.jpeg" class="card-img-top" alt="Imagem 9">
-                        <div class="card-body">
-                            <h5 class="card-title">Shop book</h5>
-                            <p class="card-text">Compra e venda de livros</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-
-        <section id="aprendizado" class="container mt-5">
-            <h2 class="text-center">Meu Aprendizado</h2>
-            <p>Atualmente, estou aprendendo diversas tecnologias que são fundamentais para o desenvolvimento de software. Aqui estão algumas das principais tecnologias que estou explorando e algumas dicas que podem ajudar você em sua jornada de aprendizado.</p>
-        
-            <h3>Tecnologias que Estou Aprendendo</h3>
-            <ul>
-                <li><strong>JavaScript:</strong> A linguagem de programação essencial para desenvolvimento web. Estou aprendendo sobre manipulação do DOM, eventos e AJAX.</li>
-                <li><strong>React:</strong> Uma biblioteca JavaScript para construir interfaces de usuário. Estou focando em componentes, estado e props.</li>
-                <li><strong>Node.js:</strong> Uma plataforma para construir aplicações de rede escaláveis. Estou aprendendo sobre Express.js e APIs RESTful.</li>
-                <li><strong>Python:</strong> Uma linguagem versátil que estou usando para automação e análise de dados. Estou explorando bibliotecas como Pandas e NumPy.</li>
-            </ul>
-        
-            <h3>Dicas para Aprender Melhor</h3>
-            <ol>
-                <li><strong>Pratique Regularmente:</strong> A prática constante é fundamental. Tente codificar todos os dias, mesmo que por pouco tempo.</li>
-                <li><strong>Participe de Comunidades:</strong> Junte-se a fóruns e grupos de estudo. Compartilhar conhecimento e tirar dúvidas é muito valioso.</li>
-                <li><strong>Construa Projetos Pessoais:</strong> A melhor forma de aprender é aplicando o que você estudou em projetos reais. Isso ajuda a fixar o conhecimento.</li>
-                <li><strong>Leia Documentação:</strong> A documentação oficial é uma fonte rica de informações. Aprender a navegar por ela é uma habilidade importante.</li>
-            </ol>
-        
-            <h3>Trechos de Código Úteis</h3>
-            <div class="codigo-container">
-                <div class="codigo-box">
-                    <h4>JavaScript - Manipulação do DOM</h4>
-                    <pre><code>
-                        // Seleciona um elemento e altera seu conteúdo
-                        const elemento = document.getElementById('meuElemento');
-                        elemento.textContent = 'Novo Conteúdo!';
-                    </code></pre>
-                </div>
-                <div class="codigo-box">
-                    <h4>JavaScript - Calculadora Simples</h4>
-                    <pre><code>
-                        // Função para realizar operações básicas
-                        function calcular(operacao, num1, num2) {
-                            switch (operacao) {
-                                case 'soma':
-                                    return num1 + num2;
-                                case 'subtracao':
-                                    return num1 - num2;
-                                case 'multiplicacao':
-                                    return num1 * num2;
-                                case 'divisao':
-                                    return num1 / num2;
-                                default:
-                                    return 'Operação inválida';
-                            }
-                        }
-        
-                        // Exemplo de uso
-                        console.log(calcular('soma', 5, 3)); // Saída: 8
-                        console.log(calcular('divisao', 10, 2)); // Saída: 5
-                    </code></pre>
-                </div>
-            </div>
-        
-            <h3>Deixe seu Comentário</h3>
-            <form id="comentarioForm" class="comentario-form">
-                <div class="form-group">
-                    <label for="nome">Nome:</label>
-                    <input type="text" id="nome" name="nome" required>
-                </div>
-                <div class="form-group">
-                    <label for="comentario">Comentário:</label>
-                    <textarea id="comentario" name="comentario" rows="4" required></textarea>
-                </div>
-                <button type="submit">Enviar Comentário</button>
-            </form>
-        </section>
-        <section id="redes-sociais">
-            <h2>Redes Sociais</h2>
-            <p>Siga-me nas minhas redes sociais:</p>
-            <ul class=" list-unstyled">
-                <li><a href="https://www.linkedin.com/in/maria-das-graças-rodrigues-luciano-239b09148/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
-                <li><a href="https://github.com/maryrl" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a></li>
-                <li><a href="https://www.instagram.com/_m4ryrl_/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i> Instagram</a></li>
-                <li><a href="https://wa.me/5588997746557" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i> WhatsApp</a></li> 
-            </ul>
         </section>
     </main>
 
-    <footer id="contato" class="text-center py-4">
-        <p>Entre em contato para mais informações!</p>
-        <p>&copy; 2024 - Maria Rodrigues, desenvolvedora</p>
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p class="mb-2">© 2024 Maria Rodrigues. Todos os direitos reservados.</p>
+            <div class="social-icons">
+                <a href="https://github.com/maryrl" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github mx-2"></i></a>
+                <a href="https://linkedin.com/in/seu-perfil" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin mx-2"></i></a>
+                <a href="https://instagram.com/seu-perfil" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram mx-2"></i></a>
+            </div>
+        </div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Scripts otimizados -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7CQZThWj1d" crossorigin="anonymous"></script>
+    <script src="assets/js/main.min.js"></script>
 </body>
 </html>
